@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d9d9d9; 
+  padding: 1rem 2rem; 
+  .logo {
+    a {
+        font-family: "Jost-Black";
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #1e1e1e; 
+    }
+  }
+  .nav__pages {
+    a {
+      display: inline-block;
+      margin-right: 1rem; 
+      color: #1e1e1e;
+    }
+  }
+  .login a{
+    text-decoration: none;
+    color: #1e1e1e;
+  }
+}
+
+
+
+
