@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import { Routes, Route } from 'react-router-dom';
 import { Header, About, Contact, Explore, Login, Signup } from './Containers';
 import { Navbar, Footer } from './Components'
@@ -9,6 +9,7 @@ function App() {
       <Navbar/>
       <Routes>
       <Route path="/" element={<Header/>} />
+      <Route path="/Home" element={<Header/>} />
       <Route path="/About" element={<About/>} />
       <Route path="/Explore" element={<Explore/>} />
       <Route path="/Contact" element={<Contact/>} />
